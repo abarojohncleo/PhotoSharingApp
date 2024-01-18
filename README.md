@@ -38,14 +38,6 @@ Enjoy a clean and intuitive user interface, making it easy to navigate through d
 - IndexedDB: A low-level API for storing large amounts of structured data.
 - Advanced Caching: Utilizing caching strategies to optimize data retrieval.
 
-## Getting Started:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/photo-sharing-app.git
-
-
-
 ## Running The App
 To run the app, make sure you have Node installed in your machine.
 ```
