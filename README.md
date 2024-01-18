@@ -1,39 +1,49 @@
-# Technical Test
-The code in this project is operational, but it was completed with very poor standard.
-The client is also upset because the app is not fast enough to respond to user actions.
+# Photo Sharing App
 
-You're given responsibility to refactor the code and align it with the company's coding standards.
-- Performance
-- Maintainability
-- Readability
-- Testability
-- DRY
-- Single Responsibility Principle
+Welcome to our Photo Sharing App! 📸
 
+This application allows users to explore and download beautiful images across various categories, enhancing your visual experience. The app prioritizes user experience through advanced caching mechanisms, utilizing local browser storage to enhance speed and efficiency.
 
-## Project Description
-This project is a photo sharing app where users can download any photos in the app.
+## Features:
 
-The frontend relies on a legacy API that we don't have control of.
-Note that the query only returns 3 items at a time.
+### 1. Diverse Image Categories
+Explore stunning images across different categories such as Nature, Architecture, and Fashion.
 
-### Features
-1. Currently, the app supports 3 categories: nature, architecture, and fashion.
-2. On each category, there should be 9 images loaded per page arranged as a 3 x 3 grid.
-3. The user should be able to navigate to next and previous pages.
-4. The user should be able to download the image after clicking the download button.
+### 2. Download High-Quality Images
+Download your favorite images in high quality with just a click. Enjoy a seamless and user-friendly download experience.
 
-The main goal is to make the UI as smooth as possible and apply best practices in writing the frontend code.
+### 3. Advanced Caching with IndexedDB
+To ensure a faster and more responsive user experience, the app employs advanced caching. Before making API calls to the internet, the app checks the local IndexedDB for cached responses. If the data is available locally, it is fetched instantly, minimizing reliance on internet connections and optimizing load times.
 
+### 4. User-Friendly Interface
+Enjoy a clean and intuitive user interface, making it easy to navigate through different image categories and download your preferred pictures.
 
-## Things You May Do
-    * Modify any existing files that are not contained in the "do-not-refactor" directory
-	* Add any third-party libraries
-	* Add any front-end transpilers, module bundlers, or task managers
-	* Add tree-shaking on JS and CSS
-	* Change and/or improve the existing UI
-	* Add live reload for every file changes
-	* Wrap the frontend into a Docker container (Big plus)
+## Usage:
+
+1. **Explore Categories:**
+   - Click on the navigation links to explore images in different categories (Nature, Architecture, Fashion).
+
+2. **Download Images:**
+   - Find an image you love? Simply click the download button, and the image will be saved to your device.
+
+3. **Fast and Responsive:**
+   - Experience the app's speed and responsiveness, thanks to advanced caching techniques that prioritize local storage.
+
+4. **Optimized for Better User Experience:**
+   - The app is designed to provide a smooth and enjoyable experience for users who want to discover, view, and download high-quality images.
+
+## Technologies Used:
+
+- React: A JavaScript library for building user interfaces.
+- IndexedDB: A low-level API for storing large amounts of structured data.
+- Advanced Caching: Utilizing caching strategies to optimize data retrieval.
+
+## Getting Started:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/photo-sharing-app.git
+
 
 
 ## Running The App
@@ -42,8 +52,3 @@ To run the app, make sure you have Node installed in your machine.
 npm install
 npm start
 ```
-
-## Submitting your work
-Create a separate branch by following this notation: feature/{applicant-fullname}
-
-Create a Pull Request to the master branch. 
